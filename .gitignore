@@ -1,1 +1,8 @@
-/.env
+# Python cache files (This caused your current issue)
+_pycache_/
+*.pyc
+# Environment variables (Where you should keep your keys)
+.env
+# Virtual environments
+venv/
+env/
