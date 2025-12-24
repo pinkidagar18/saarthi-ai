@@ -182,7 +182,7 @@ The architecture follows a modern layered approach with clear separation of conc
 *Comprehensive admin panel with real-time analytics*
 
 ### Teacher Dashboard
-![Teacher Dashboard](images/Teacher_dashboard_page.png)
+![Teacher Dashboard](images/Teacher_Dashboard_page.png)
 *Teacher interface for course and attendance management*
 
 ### Student Dashboard
@@ -190,7 +190,7 @@ The architecture follows a modern layered approach with clear separation of conc
 *Student portal with performance tracking*
 
 ### Parent Dashboard
-![Parent Dashboard](images/Parent_dashboard_page.png)
+![Parent Dashboard](images/Parent_Dashboard_page.png)
 *Parent portal for monitoring child's academic progress*
 
 ---
