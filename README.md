@@ -1,9 +1,50 @@
 # 🎓 SaarthiAI - Next Generation Learning Platform
 
-
 **Transform Education with AI-Powered Intelligence**
 
 SaarthiAI is a revolutionary educational management system that combines face recognition attendance, intelligent learning assistance, and comprehensive analytics to revolutionize the education experience.
+
+---
+
+## 📑 Table of Contents
+
+- [Key Features](#-key-features)
+  - [AI-Powered Capabilities](#-ai-powered-capabilities)
+  - [Comprehensive Management](#-comprehensive-management)
+  - [Communication & Alerts](#-communication--alerts)
+  - [Analytics & Reporting](#-analytics--reporting)
+- [Technology Stack](#-technology-stack)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+  - [Key Libraries](#key-libraries)
+- [System Architecture](#-system-architecture)
+  - [System Architecture Diagram](#system-architecture-diagram)
+  - [Data Flow Architecture](#data-flow-architecture)
+- [Project Screenshots](#-project-screenshots)
+- [Project Structure](#-project-structure)
+- [Installation & Setup](#-installation--setup)
+  - [Prerequisites](#prerequisites)
+  - [Step-by-Step Installation](#step-by-step-installation)
+- [Default Login Credentials](#-default-login-credentials)
+- [Database Schema](#-database-schema)
+- [Known Issues & Biases](#-known-issues--biases)
+  - [Face Recognition Bias](#1-face-recognition-bias)
+  - [AI Tutor Response Bias](#2-ai-tutor-response-bias)
+  - [Attendance Prediction Bias](#3-attendance-prediction-bias)
+  - [Email Alert Fatigue](#4-email-alert-fatigue)
+- [Common Errors & Solutions](#-common-errors--solutions)
+- [Security Considerations](#-security-considerations)
+- [Future Enhancements](#-future-enhancements)
+- [API Documentation](#-api-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Team](#-team)
+- [Acknowledgments](#-acknowledgments)
+- [Support](#-support)
+- [Ethical Considerations](#-ethical-considerations)
+- [Performance Metrics](#-performance-metrics)
+- [Why SaarthiAI?](#-why-saarthiai)
+- [Additional Resources](#-additional-resources)
 
 ---
 
@@ -63,33 +104,37 @@ SaarthiAI is a revolutionary educational management system that combines face re
 
 ### System Architecture Diagram
 
-The architecture consists of four main layers:
+![SaarthiAI System Architecture](images/system_arch.png)
 
-**1. Client Layer**
-- Web UI (Browser-based interface)
-- Mobile and Tablet support (Planned)
-- Responsive design for all devices
+The architecture follows a modern layered approach with clear separation of concerns:
+
+The architecture follows a modern layered approach with clear separation of concerns:
+
+**1. Presentation Layer (Frontend)**
+- **User Interfaces**: Admin, Student, Teacher, and Parent dashboards
+- **Static Assets**: HTML templates, CSS/JS libraries, images, and media
+- **Web Features**: Responsive design, real-time updates, print capabilities
+- **Security**: Session management, authentication, CSRF protection
 
 **2. Application Layer (Flask Backend)**
-- **Authentication & Session Management**: Secure login with Werkzeug security
-- **Role-Based Routes**: Admin, Teacher, Student, Parent, and API routes
-- **Business Logic Layer**: Core functionality for user, course, attendance, grade, assignment, and resource management
+- **Flask Application (app.py)**: RESTful APIs, authentication, request/response processing, session management
+- **Business Logic**: User management, course enrollment, attendance processing, grade computation
+- **APIs & Integration**: JSON handlers, third-party integrations, external data services
 
-**3. Integration Layer**
-- **Google Gemini AI**: AI-powered learning assistant
-- **Email Service (SMTP)**: Automated notifications and alerts
-- **Scheduler Service**: Background task management
-- **Face Recognition**: Automated attendance marking
-- **Analytics Engine**: Performance tracking and insights
+**3. Service Layers (Specialized Services)**
+- **AI Assistant**: Google Gemini AI, natural language processing, text optimization
+- **Face Recognition**: OpenCV processing, face detection and matching
+- **Email Service**: SMTP integration, automated notifications, attendance reports
+- **Google Services**: Google AI integration, Dialogflow, cloud services
 
-**4. Data Layer (SQLite + WAL Mode)**
-- **Core Tables**: Users, Students, Courses, Subjects
-- **Transaction Tables**: Attendance, Grades, Assignments, Resources
-- **Logging Tables**: Email Logs, Enrollments, Alerts
+**4. Data Layer (Persistence)**
+- **SQLite Database**: User data, attendance records, grades, courses
+- **File System Storage**: Profile photos, face recognition models, JSON/CSV files
+- **Configuration**: API keys, OAuth credentials, environment parameters
 
-### Data Flow Architecture
+**5. External Systems & Dependencies**
+- Google Gemini AI, Gmail SMTP, Camera devices, Web browsers, Python libraries
 
-![SaarthiAI Data Flow](images/dataflow_diagram.png)
 
 #### Key Workflows:
 
@@ -137,7 +182,7 @@ The architecture consists of four main layers:
 *Comprehensive admin panel with real-time analytics*
 
 ### Teacher Dashboard
-![Teacher Dashboard](images/Teacher_Dashboard_page.png)
+![Teacher Dashboard](images/Teacher_dashboard_page.png)
 *Teacher interface for course and attendance management*
 
 ### Student Dashboard
@@ -145,7 +190,7 @@ The architecture consists of four main layers:
 *Student portal with performance tracking*
 
 ### Parent Dashboard
-![Parent Dashboard](images/Parent_Dashboard_page.png)
+![Parent Dashboard](images/Parent_dashboard_page.png)
 *Parent portal for monitoring child's academic progress*
 
 ---
@@ -601,5 +646,3 @@ SaarthiAI (साथी means "companion" in Hindi) is designed to be a true com
 ---
 
 **Made with ❤️ for Education**
-
-*Last Updated: December 2025*
