@@ -125,27 +125,27 @@ The architecture consists of four main layers:
 ## 📸 Project Screenshots
 
 ### Home Page
-![Home Page](images./Home_page__2_.png)
+![Home Page](images/Home_page__2_.png)
 *Landing page showcasing AI-powered features*
 
 ### Login Page
-![Login Page](images./Login_page.png)
+![Login Page](images/Login_page.png)
 *Secure authentication with role-based access*
 
 ### Admin Dashboard
-![Admin Dashboard](images./Admin_dashboard_page.png)
+![Admin Dashboard](images/Admin_dashboard_page.png)
 *Comprehensive admin panel with real-time analytics*
 
 ### Teacher Dashboard
-![Teacher Dashboard](images./Teacher_Dashboard_page.png)
+![Teacher Dashboard](images/Teacher_Dashboard_page.png)
 *Teacher interface for course and attendance management*
 
 ### Student Dashboard
-![Student Dashboard](images./Student_dashboard_page.png)
+![Student Dashboard](images/Student_dashboard_page.png)
 *Student portal with performance tracking*
 
 ### Parent Dashboard
-![Parent Dashboard](images./Parent_dashboard_page.png)
+![Parent Dashboard](images/Parent_dashboard_page.png)
 *Parent portal for monitoring child's academic progress*
 
 ---
