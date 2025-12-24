@@ -125,7 +125,7 @@ The architecture consists of four main layers:
 ## 📸 Project Screenshots
 
 ### Home Page
-![Home Page](images/Home_page (2).png)
+![Home Page](images/Home_page.png)
 *Landing page showcasing AI-powered features*
 
 ### Login Page
