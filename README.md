@@ -125,7 +125,7 @@ The architecture consists of four main layers:
 ## 📸 Project Screenshots
 
 ### Home Page
-![Home Page](images/Home_page__2_.png)
+![Home Page](images/Home_page(2).png)
 *Landing page showcasing AI-powered features*
 
 ### Login Page
@@ -145,7 +145,7 @@ The architecture consists of four main layers:
 *Student portal with performance tracking*
 
 ### Parent Dashboard
-![Parent Dashboard](images/Parent_dashboard_page.png)
+![Parent Dashboard](images/Parent_Dashboard_page.png)
 *Parent portal for monitoring child's academic progress*
 
 ---
