@@ -210,24 +210,20 @@ SaarthiAI/
 ├── templates/
 │   ├── admin/
 │   │   ├── admin_dashboard.html
-│   │   ├── manage_students.html
-│   │   ├── manage_teachers.html
-│   │   └── manage_courses.html
 │   ├── teacher/
 │   │   ├── teacher_dashboard.html
-│   │   ├── mark_attendance.html
-│   │   └── manage_assignments.html
+│   │   ├── take_attendance.html
+│   │   └── attendence_summary.html
 │   ├── student/
 │   │   ├── student_dashboard.html
-│   │   ├── view_attendance.html
-│   │   └── view_grades.html
+│   │   ├── ai_assitant.html
+│   │   └── attendence.html
 │   └── parent/
 │       └── parent_dashboard.html
 │
 └── static/
     ├── css/
     ├── js/
-    └── images/
 ```
 
 ---
